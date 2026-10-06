@@ -1,8 +1,5 @@
-"""Entry point for the ACC recursive model collapse project."""
+"""Command-line entry point for the recursive model-collapse experiment."""
 
-
-def main() -> None:
-    print("ACC recursive model collapse project")
 
 
 if __name__ == "__main__":
