@@ -2,3 +2,5 @@
 jupyterlab
 keras>=3.0.0
 keras-hub
+torch
+numpy
