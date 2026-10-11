@@ -1,2 +1,4 @@
 # Add runtime dependencies here as the project grows.
 jupyterlab
+keras>=3.0.0
+keras-hub
