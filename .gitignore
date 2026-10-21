@@ -1,10 +1,20 @@
-.venv
-venv
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
 
-env
-.env
+# Dependencies and build output
+node_modules/
+dist/
+build/
+
+# Environment files
+.env.*
+!.env.example
 .env.local
+.env
 
-config\settings.yaml
-
-.ipynb_checkpoints
+# OS files
+.DS_Store
+Thumbs.db
