@@ -18,3 +18,7 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+# Saved models are too big for GitHub
+checkpoints/
+*.safetensors
+.venv/
