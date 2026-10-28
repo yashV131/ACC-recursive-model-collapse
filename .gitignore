@@ -8,3 +8,7 @@ env
 config\settings.yaml
 
 .ipynb_checkpoints
+# archaic / Shakespeare run artifacts
+backend/notebooks/archaic/data.txt
+backend/results/archaic/blocks/
+backend/results/archaic/ckpt_epoch*/
