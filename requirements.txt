@@ -7,3 +7,4 @@ numpy
 tensorflow
 huggingface-hub
 transformers
+gradio
