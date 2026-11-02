@@ -1,14 +1,38 @@
-.venv
-venv
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
 
-env
-.env
+# Dependencies and build output
+node_modules/
+dist/
+build/
+
+# Environment files
+.env.*
+!.env.example
 .env.local
+.env
 
-config\settings.yaml
+# OS files
+.DS_Store
+Thumbs.db
 
+# Virtual environments
+.venv/
+
+# Jupyter
 .ipynb_checkpoints
+
+# Saved models are too big for GitHub
+checkpoints/
+*.safetensors
+
 # archaic / Shakespeare run artifacts
 backend/notebooks/archaic/data.txt
 backend/results/archaic/blocks/
 backend/results/archaic/ckpt_epoch*/
+
+# complex / arXiv run artifacts
+backend/notebooks/complex/complex_data.txt
