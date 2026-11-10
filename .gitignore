@@ -36,3 +36,7 @@ backend/results/archaic/ckpt_epoch*/
 
 # complex / arXiv run artifacts
 backend/notebooks/complex/complex_data.txt
+# modern / Simple English Wikipedia run artifacts
+backend/notebooks/modern/modern_cleaning_output/
+backend/results/modern/blocks/
+backend/results/modern/ckpt_epoch*/
